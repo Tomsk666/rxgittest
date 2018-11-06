@@ -1,0 +1,396 @@
+﻿<repository
+id="27e75346-85fc-417a-a6a3-cd9580451d1f"
+name="JavaSwingdemoRepository"
+rxversion="8.3">
+	<codegen
+	classname="JavaSwingdemoRepository"
+	namespace="JavaSwingdemo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="898e5237-c47f-48d4-9c52-4a9715961128"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="e1d15bcc-409b-4132-9887-c4e830adf3e0"
+		isrooted="True"
+		name="SwingSet3"
+		refpath="/form[@title='SwingSet3']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="checkbox,javaelement"
+			capname="checkbox"
+			id="6b12de86-807b-40b9-bc5b-24ab050b5816"
+			name="JButton"
+			refimgid="3015f9b0-fa3d-4902-a56d-f779be6f0537"
+			searchtimeout="30000ms">
+				/form[@title='SwingSet3']//container[@name='scrollPane']/.//checkbox[@text='JButton ' and @visible='True']
+			</item>
+			<folder
+			capname="container"
+			id="c1c3ce62-555c-4d6c-b9ba-a9920ebcb09f"
+			isrooted="True"
+			name="JPanel"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,javaelement"
+				capname="checkbox"
+				id="0d48da7e-63b6-46a3-9f88-c308fde856ee"
+				name="TextField"
+				refimgid="42526ac6-67f2-4127-bb3e-3fe40048f242"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//checkbox[@text='TextField ']
+				</item>
+				<item
+				addcaps="checkbox,javaelement"
+				capname="checkbox"
+				id="f2303f65-d5c8-4405-8be1-0dcae288533f"
+				name="JOptionPane"
+				refimgid="11c6b206-28b6-456c-a180-118d2c2998d8"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//checkbox[@text='JOptionPane ']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="bc5cd38f-3a8b-4ab1-b2e6-ad802fc41642"
+				name="DoItAgain"
+				refimgid="f66e8084-3d16-45e1-a1a9-bef26ba37ed0"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text='Do it again']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="e9de5dbc-e2f3-4ef3-b755-27aead15fe7d"
+				name="DoIt"
+				refimgid="e9e578da-620b-45b0-bdb2-331ff2278b44"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text~'^Do it']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="c37dbfa6-f8f6-406e-8d7e-ce188b6876f4"
+				name="ShowComponentDialog"
+				refimgid="c0c22289-7615-414d-82d8-e40710c1a6e3"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text='Show Component Dialog']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="b047089b-02d5-4500-8e80-fe21e98951b4"
+				name="ShowConfirmationDialog"
+				refimgid="d67bc757-400c-4688-af9b-f195205ea5a6"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text='Show Confirmation Dialog']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="a1ef3a33-fbe4-49a1-b822-3a048ceb4935"
+				name="ShowInputDialog"
+				refimgid="6111f2b5-37cb-4404-972a-d6078e398eb0"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text='Show Input Dialog']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="f1736dd2-7372-4f04-af3e-ea1fea6a1518"
+				name="ShowMessageDialog"
+				refimgid="1dc5db78-5a80-4476-a996-3c97275a7b57"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text='Show Message Dialog']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="cb46cbca-bde0-42c6-9b51-ed387d6863e2"
+				name="ShowWarningDialog"
+				refimgid="feb06313-9f40-4e82-a707-4488bf1c3179"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@text='Show Warning Dialog']
+				</item>
+				<item
+				addcaps="button,javaelement"
+				capname="button"
+				id="5fed8819-a972-4653-8d6f-b2f5d9f47da4"
+				name="ButtonGo"
+				refimgid="1bfdb5f0-c936-4051-aefa-373c1e4c98d0"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//button[@name='btnGo']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="5a4eca06-0f19-47e1-a820-5e36d93f8b18"
+				name="TfPassword1"
+				refimgid="ef263034-7a91-4758-96d2-a9c2d44395ef"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//text[@name='tfPassword1']
+				</item>
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="976923eb-bce8-4b93-8fa2-0a9e575859d5"
+				name="TfPassword2"
+				refimgid="934b7452-0170-43d3-aa13-dc26c97ab743"
+				searchtimeout="30000ms">
+					/form[@title='SwingSet3']/container[@type='JPanel']//text[@name='tfPassword2']
+				</item>
+				<basepath>
+					/form[@title='SwingSet3']/container[@type='JPanel']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='SwingSet3']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIoSURBVDhPnZJBiFJRFIZtUDFRtEZJY0wGHRnN
+AQUR0lEXDiI4gw4tql2gQktJo0W5CNyotdJdCi0GNALRQFy4CF0E0lYXbgKXuUkHF4Pm/J17UaYI
+pqYfPu67973/f+ec9wSXyW63/1hd/p8MBgP8fj9W26vLaDTyAJfLdfUQqVRqM5lMcDqdODo64uvq
+1r9Jr9fDvrMDHB4Cx8e4R1VQRenV7b9KzPpv7O3h/OAACIcxdrtBQ720ig2v18tLzefzSCaTeKzR
+4L3Fgk82G97t7oJJp9MZ2MM+n+8ijIZ0/vbLHIXPwKOnL/br9TpKpRJUIhHcCgXCKhVsW1s8oN/v
+c6NYLJ5zs0wmM3s8HqQKdZycfEAh/waNRgPFYhEWeruejGazGePxmAfM53N2/s1qtbIgsUAul399
+GNqH4+421OpNPH9yH6yCSqWCdDqNVCqFVqvFzWtJJJIzNg+tVhvnRVALyxua27h1Z/t7PB7nFbTb
+bU6v18NkMllZgcViwVtQq9UXMxAKhSlarjESiQSq1SqazSY6nQ4Gg8FvAcvlkrX0gBtXYsbrhIaw
+RqNR5HI5FAoFlMtl1Go1HjQcDjGdTjGbzRAKhV4x41osQELYiJeRSASxWAzBYBCBQADrfTabRbfb
+xWg0Yp/SwYy/aoPYJMJEh5kcDgcb1oz2p0ql8oz9H5lMhldEZ2biJvGHxISCUBNGwkuwfp8RH2nq
+p7S+JmSESCAQCH4CgWAvOSlXX1QAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="5c59db4f-8343-4b58-8f9a-58e43ec1f937"
+		isrooted="True"
+		name="Input"
+		refpath="/form[@title='Input']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="cf4ed82a-2ba8-401a-a718-0c16a23bec22"
+			name="OptionPaneTextField"
+			refimgid="2f14aca3-6e68-4145-b322-ea0c78ca36a1"
+			refpath="/form[@title='Input']/container/container[@name='OptionPane.messageArea']/container/container[@name='OptionPane.body']/text[@name='OptionPane.textField']"
+			searchtimeout="30000ms">
+				/form[@title='Input']/?/?/container[@name='OptionPane.messageArea']/container[@name='OptionPane.realBody']/?/?/text[@name='OptionPane.textField']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="16ed5311-0de4-4c32-b15e-391ea2a7ae99"
+			name="ButtonOK"
+			refimgid="9b50c541-4b63-46f7-b38d-b921364b8382"
+			refpath="/form[@title='Input']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Input']/?/?/container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Input']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="dc233879-7e48-4464-ae48-35be73e44c70"
+		isrooted="True"
+		name="Message"
+		refpath="/form[@title='Message']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="8603a6f2-e88f-4627-af32-74775ff0a1d2"
+			name="ButtonOK"
+			refimgid="33ffd828-4a6c-436a-834c-a7608a0e5c0c"
+			refpath="/form[@title='Message']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']"
+			searchtimeout="30000ms">
+				/form[@title='Message']/?/?/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+			</item>
+			<basepath>
+				/form[@title='Message']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="96cef0df-2d59-4f56-83aa-55db97d7f0f6"
+		isrooted="True"
+		name="WarningDialogExample"
+		refpath="/form[@title='Warning Dialog Example']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="ff4a55f0-84e4-4f6b-a4eb-cfa969cb31cf"
+			name="ButtonOK"
+			refimgid="62fb8e80-eb82-4695-9e6e-8d9fe79dcf39"
+			refpath="/form[@title='Warning Dialog Example']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']"
+			searchtimeout="30000ms">
+				/form[@title='Warning Dialog Example']/?/?/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+			</item>
+			<basepath>
+				/form[@title='Warning Dialog Example']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="1c7c8784-0e78-4b5b-acf2-6bdd39cac17c"
+		isrooted="True"
+		name="ComponentDialogExample"
+		refpath="/form[@title='Component Dialog Example']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="combobox,javaelement"
+			capname="combobox"
+			id="aa3bb12f-05bd-489f-95ed-6bfca3284f42"
+			name="JComboBox"
+			refimgid="04630dcf-8735-4aa3-93a6-e60344957171"
+			refpath="/form[@title='Component Dialog Example']/container/container[@name='OptionPane.messageArea']/container/container[@name='OptionPane.body']/combobox[@type='JComboBox']"
+			searchtimeout="30000ms">
+				/form[@title='Component Dialog Example']/?/?/container[@name='OptionPane.messageArea']/container[@name='OptionPane.realBody']/?/?/combobox[@type='JComboBox']
+			</item>
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="a6aeb1f9-e0fb-4325-8766-0152e32f43fb"
+			name="Item2"
+			refimgid="3efe3abb-a4ef-407e-9695-c7bf37555604"
+			refpath="/form[@title='Component Dialog Example']/contextmenu/container/container/list/listitem[@text='item 2']"
+			searchtimeout="30000ms">
+				/form[@title='Component Dialog Example']/contextmenu[@name='ComboPopup.popup']//list[@name='ComboBox.list']/listitem[@text='item 2']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="6411ab3d-3293-40a8-82ba-fea1a3130dae"
+			name="ButtonYes"
+			refimgid="7928fcc1-9978-4cfb-bece-160e5fb9f309"
+			refpath="/form[@title='Component Dialog Example']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Component Dialog Example']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Component Dialog Example']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="e29b5418-dcfb-459d-b517-dac5dad44659"
+		isrooted="True"
+		name="SelectAnOption"
+		refpath="/form[@title='Select an Option']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="4e8c0114-9f91-4e6a-b587-9452a6bd85b3"
+			name="ButtonYes"
+			refimgid="11b59b1e-be33-4e8f-bc3a-ed294ab20cc2"
+			refpath="/form[@title='Select an Option']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button' and @text='Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Select an Option']/?/?/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<basepath>
+				/form[@title='Select an Option']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

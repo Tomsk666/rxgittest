@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{D048FA10-269C-4817-9491-B4467317C588}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>JavaSwingdemo</RootNamespace>
+    <AssemblyName>JavaSwingdemo</AssemblyName>
+    <RanorexVersion>8.3</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>96539c6b-168f-4e80-99d3-cc396b8450e7</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>c1753d66-d38d-4749-9584-45d241165a68</id>
+    </Compile>
+    <Compile Include="JavaSwingdemoRepository.cs">
+      <BoundTo>96539c6b-168f-4e80-99d3-cc396b8450e7</BoundTo>
+      <DependentUpon>JavaSwingdemoRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>be228507-11bf-46fa-b173-fbdbe25e58b6</id>
+    </Compile>
+    <Compile Include="KillAUT.cs">
+      <id>f1828f59-04c5-4faf-a6ca-5a01ea56191b</id>
+    </Compile>
+    <Compile Include="MyLib.cs">
+      <id>87d1ba5e-4e6d-47a8-9cd2-b7f594a71637</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2ddfacb3-d92d-4f6d-bb14-d8fe5e9e40f6</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>26e4790e-b888-4008-8703-261c1d396b39</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e7af9a61-5b36-493d-a77b-19aa8f45ca0a</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>26e4790e-b888-4008-8703-261c1d396b39</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6fc25abf-fb95-44af-83c5-505d98c439f5</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>c7246d8e-24bd-4df5-a118-b5252ed3a9a7</id>
+    </None>
+    <None Include="JavaSwingdemoRepository.rximg">
+      <BoundTo>96539c6b-168f-4e80-99d3-cc396b8450e7</BoundTo>
+      <DependentUpon>JavaSwingdemoRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>1b7a10a7-6596-499f-9643-3236d9ba4d8c</id>
+    </None>
+    <None Include="JavaSwingdemoRepository.rxrep">
+      <id>96539c6b-168f-4e80-99d3-cc396b8450e7</id>
+      <repoid>27e75346-85fc-417a-a6a3-cd9580451d1f</repoid>
+      <reporootid>898e5237-c47f-48d4-9c52-4a9715961128</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>96539c6b-168f-4e80-99d3-cc396b8450e7</BoundTo>
+      <id>26e4790e-b888-4008-8703-261c1d396b39</id>
+      <recordtableid>a9677fcb-8596-4cbc-bdf2-f42a8a68c787</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaSwingdemo.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>db782506-6d14-44c1-8ae9-1855532d8e26</id>
+    </Content>
+    <Content Include="JavaSwingdemo.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>52d63306-9f50-4d34-b87f-bd0f7da09af6</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{91F4B993-718C-4B17-A1BE-89B5EA59B5E5}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

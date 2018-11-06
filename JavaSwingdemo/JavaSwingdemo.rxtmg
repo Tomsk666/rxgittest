@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="JavaSwingdemo"
+      id="deb710dc-8d76-4af0-a144-e42af37ba166"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="JavaSwingdemo"
+      id="deb710dc-8d76-4af0-a144-e42af37ba166"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
