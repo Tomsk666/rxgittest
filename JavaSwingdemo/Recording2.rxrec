@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fe2e0122-2de3-42ae-8000-b7eaee8ddd36"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="JavaSwingdemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Hello to all"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="875acf49-488c-4a97-b677-ea97ac8af04e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="27e75346-85fc-417a-a6a3-cd9580451d1f"
+	name="JavaSwingdemoRepository"
+	relativepath="JavaSwingdemoRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="JavaSwingdemoRepository"
+		namespace="JavaSwingdemo">
+		</codegen>
+		<rootfolder
+		id="898e5237-c47f-48d4-9c52-4a9715961128"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
